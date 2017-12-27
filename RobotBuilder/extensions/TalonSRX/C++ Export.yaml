@@ -1,0 +1,5 @@
+TalonSRX:
+  Defaults: "Component,None"
+  ClassName: "frc::SpeedController"
+  Construction: "#variable($Name).reset(&(new CTRE::MotorControl::CAN::TalonSRX($CAN_ID))->GetWPILIB_SpeedController());"
+  Import: "\\#include \"ctre/phoenix/MotorControl/CAN/TalonSRX.h\""

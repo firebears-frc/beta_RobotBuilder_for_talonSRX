@@ -1,0 +1,5 @@
+TalonSRX:
+  Defaults: "Component,None"
+  ClassName: "SpeedController"
+  Construction: "#variable($Name) = (new TalonSRX($CAN_ID)).getWPILIB_SpeedController();"
+  Import: "import edu.wpi.first.wpilibj.SpeedController; import com.ctre.phoenix.MotorControl.CAN.TalonSRX;"
