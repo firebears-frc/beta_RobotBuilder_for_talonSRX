@@ -1,4 +1,4 @@
-TalonSRX:
+CANTalon:
   Defaults: "Component,None"
   ClassName: "frc::SpeedController"
   Construction: "#variable($Name).reset(&(new ctre::motorcontrol::can::TalonSRX($CAN_ID))->GetWPILIB_SpeedController());"

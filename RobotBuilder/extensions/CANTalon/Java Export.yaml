@@ -1,4 +1,4 @@
-TalonSRX:
+CANTalon:
   Defaults: "Component,None"
   ClassName: "SpeedController"
   Construction: "#variable($Name) = (new TalonSRX($CAN_ID)).getWPILIB_SpeedController();"

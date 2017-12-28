@@ -1,5 +1,5 @@
 !Component
-  name: TalonSRX
+  name: CANTalon
   type: PIDOutput
   help: A speed controller that allows you to set the speed of a motor using CAN.
   properties:
